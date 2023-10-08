@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DB0D296E2ACD423A0017D35D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB0D296D2ACD423A0017D35D /* main.cpp */; };
+		DB0D29762ACD504C0017D35D /* Transport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB0D29742ACD504C0017D35D /* Transport.cpp */; };
+		DB0D29792ACD50570017D35D /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB0D29772ACD50570017D35D /* Car.cpp */; };
+		DB0D297C2ACD50760017D35D /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB0D297A2ACD50760017D35D /* Ship.cpp */; };
+		DB0D297F2ACD50850017D35D /* Plain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB0D297D2ACD50850017D35D /* Plain.cpp */; };
+		DB0D29822ACD50950017D35D /* Bike.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB0D29802ACD50950017D35D /* Bike.cpp */; };
+		DB0D29852ACD50A90017D35D /* Tram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB0D29832ACD50A90017D35D /* Tram.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		DB0D296A2ACD423A0017D35D /* Раннее связывание */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Раннее связывание"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0D296D2ACD423A0017D35D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DB0D29742ACD504C0017D35D /* Transport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Transport.cpp; sourceTree = "<group>"; };
+		DB0D29752ACD504C0017D35D /* Transport.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Transport.hpp; sourceTree = "<group>"; };
+		DB0D29772ACD50570017D35D /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		DB0D29782ACD50570017D35D /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
+		DB0D297A2ACD50760017D35D /* Ship.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
+		DB0D297B2ACD50760017D35D /* Ship.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ship.hpp; sourceTree = "<group>"; };
+		DB0D297D2ACD50850017D35D /* Plain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Plain.cpp; sourceTree = "<group>"; };
+		DB0D297E2ACD50850017D35D /* Plain.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Plain.hpp; sourceTree = "<group>"; };
+		DB0D29802ACD50950017D35D /* Bike.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bike.cpp; sourceTree = "<group>"; };
+		DB0D29812ACD50950017D35D /* Bike.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bike.hpp; sourceTree = "<group>"; };
+		DB0D29832ACD50A90017D35D /* Tram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tram.cpp; sourceTree = "<group>"; };
+		DB0D29842ACD50A90017D35D /* Tram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tram.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				DB0D296D2ACD423A0017D35D /* main.cpp */,
+				DB0D29832ACD50A90017D35D /* Tram.cpp */,
+				DB0D29842ACD50A90017D35D /* Tram.hpp */,
+				DB0D29802ACD50950017D35D /* Bike.cpp */,
+				DB0D29812ACD50950017D35D /* Bike.hpp */,
+				DB0D297D2ACD50850017D35D /* Plain.cpp */,
+				DB0D297E2ACD50850017D35D /* Plain.hpp */,
+				DB0D297A2ACD50760017D35D /* Ship.cpp */,
+				DB0D297B2ACD50760017D35D /* Ship.hpp */,
+				DB0D29772ACD50570017D35D /* Car.cpp */,
+				DB0D29782ACD50570017D35D /* Car.hpp */,
+				DB0D29742ACD504C0017D35D /* Transport.cpp */,
+				DB0D29752ACD504C0017D35D /* Transport.hpp */,
 			);
 			path = "Раннее связывание";
 			sourceTree = "<group>";
@@ -119,7 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0D29822ACD50950017D35D /* Bike.cpp in Sources */,
+				DB0D29792ACD50570017D35D /* Car.cpp in Sources */,
+				DB0D297C2ACD50760017D35D /* Ship.cpp in Sources */,
 				DB0D296E2ACD423A0017D35D /* main.cpp in Sources */,
+				DB0D29852ACD50A90017D35D /* Tram.cpp in Sources */,
+				DB0D29762ACD504C0017D35D /* Transport.cpp in Sources */,
+				DB0D297F2ACD50850017D35D /* Plain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
